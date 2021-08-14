@@ -35,33 +35,32 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.member img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .member-1 {
-    background-image: url(./Assets/Member-1.jpeg);
     border: 8px #D55834 solid !important;
 }
 
 .member-2 {
-    background-image: url(./Assets/Member-2.jpeg);
     border: 8px #ABC049 solid !important;
     
 }
 
 .member-3 {
-    background-image: url(./Assets/member-3.jpeg);
     border: 8px #4AC2A6 solid !important;
 }
 
 .member-4 {
-    background-image: url(./Assets/member-4.jpeg);
     border: 8px #0299C2 solid !important;
 }
 
 .member-5 {
-    background-image: url(./Assets/member-5.jpeg);
     border: 8px #AD616C solid !important;
 }
 
@@ -159,6 +158,30 @@ button.font-sz-smaller {
 img {
     width: 100%;
     height: 100%;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 1000px) {
+    .member-container {
+        width: 35% !important;
+        margin-bottom: 14%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .member-container {
+        text-align: center;
+        width: 60% !important;
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .member-container {
+        width: 80% !important;
+        margin-bottom: 6rem;
+    }
 }
 
 
