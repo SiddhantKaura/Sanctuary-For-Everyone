@@ -1,0 +1,146 @@
+:root{
+  --off-white: #EEEEEE;
+  --plain-white: #ffffff;
+  --plain-black: #000000;
+}
+
+.off-white-section {
+    background-color: var(--off-white);
+}
+
+.black-background {
+    background-color: var(--plain-black);
+}
+
+.color-white {
+    color: var(--plain-white);
+}
+
+.j-1 {
+    background-color: var(--off-white) !important ;
+}
+
+.jumbotron {
+   background-color: var(--plain-white);
+   margin-bottom: 0rem !important;
+}
+
+.member-container {
+    height: 30vh;
+    width: 28% !important;
+    margin-bottom: 10%;
+}
+
+.member {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.member-1 {
+    background-image: url(./Assets/Member-1.jpeg);
+    border: 8px #D55834 solid !important;
+}
+
+.member-2 {
+    background-image: url(./Assets/Member-2.jpeg);
+    border: 8px #ABC049 solid !important;
+    
+}
+
+.member-3 {
+    background-image: url(./Assets/member-3.jpeg);
+    border: 8px #4AC2A6 solid !important;
+}
+
+.member-4 {
+    background-image: url(./Assets/member-4.jpeg);
+    border: 8px #0299C2 solid !important;
+}
+
+.member-5 {
+    background-image: url(./Assets/member-5.jpeg);
+    border: 8px #AD616C solid !important;
+}
+
+.container-centered {
+    text-align: center;
+}
+
+.designation-style {
+    font-weight: bold;
+    color: rgb(236, 48, 48);
+    margin-top: 5%;
+}
+
+.carousel-item img {
+    height: 80vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    left: -40%;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+}
+
+button.font-sz-smaller {
+    font-size: 1.2rem;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 30%;
+}
+
+.logo-container {  
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(./Assets/WhatsApp\ Image\ 2021-08-12\ at\ 09.43.43\ newnew.jpeg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.logo-container-sm {
+    height: 70px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    /* background-image: url(./Assets/Capture.PNG);
+    background-size: cover; */
+}
+
+.logo-image-container {
+    height: 70px;
+    width: 70px;
+    background-image: url(./Assets/Capture.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-container-sm a {
+    display: inline-block;
+    width: 100%; 
+}
+
+.card a img {
+    height: 200px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
