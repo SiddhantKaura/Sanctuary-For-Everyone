@@ -71,8 +71,27 @@
 
 .designation-style {
     font-weight: bold;
-    color: rgb(236, 48, 48);
     margin-top: 5%;
+}
+
+.font-color-1 {
+    color: #D55834;
+}
+
+.font-color-2 {
+    color: #ABC049;
+}
+
+.font-color-3 {
+    color: #4AC2A6;
+}
+
+.font-color-4 {
+    color: #0299C2;
+}
+
+.font-color-5 {
+    color: #AD616C;
 }
 
 .carousel-item img {
