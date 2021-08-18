@@ -223,10 +223,16 @@ img {
     }
     .carousel-item {
         height: 500px;
+        object-fit: cover;
+        object-position: bottom;
+        min-width: 400px;
     }
 
     .carousel-item > img {
         height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        min-width: 400px;
     }
 
     .carousel-item > .carousel-caption {
@@ -236,8 +242,3 @@ img {
     }
 
 }
-
-
-
-
-
