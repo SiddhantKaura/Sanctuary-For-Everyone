@@ -117,6 +117,10 @@ button.font-sz-smaller {
     width: 30%;
 }
 
+.footer-subcontainer {
+    margin-bottom: 1rem;
+}
+
 .logo-container {  
     height: 200px;
     width: 200px;
@@ -180,6 +184,36 @@ img {
         margin-bottom: 1rem;
     }
 
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer-subcontainer {
+        width: 90% !important;
+    }
+
+    .left-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3.6rem;
+    }
+
+    .right-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.8rem;
+        flex-direction: row !important;
+    }
+
+    .logo-container {
+        height: 150px;
+        width: 150px;
+    }
+
+    .right-section > div {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -200,7 +234,10 @@ img {
         font-size: 1.5rem;
         left: 0%;
     }
+
 }
+
+
 
 
 
